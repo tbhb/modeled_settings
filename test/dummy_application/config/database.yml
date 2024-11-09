@@ -1,0 +1,24 @@
+default: &default
+  adapter: sqlite3
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 50 } %>
+  retries: 100
+
+development:
+  primary:
+    <<: *default
+    database: db/activemodel_config_development.sqlite3
+  primary_replica:
+    <<: *default
+    database: db/activemodel_config_development.sqlite3
+    replica: true
+
+test:
+  primary:
+    <<: *default
+    pool: 20
+    database: db/activemodel_config_test.sqlite3
+  primary_replica:
+    <<: *default
+    pool: 20
+    database: db/activemodel_config_test.sqlite3
+    replica: true

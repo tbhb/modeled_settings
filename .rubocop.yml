@@ -1,0 +1,35 @@
+inherit_gem:
+  rubocop-rails-omakase: rubocop.yml
+
+require:
+  - rubocop-minitest
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - "**/tmp/**/*"
+    - "**/vendor/**/*"
+    - bench/**/*
+    - bin/**/*
+    - db/*schema.rb
+    - lib/generators/**/*schema.rb
+    - gemfiles/*
+    - test/**/*schema.rb
+    - Gemfile.lock
+  TargetRubyVersion: 3.2
+
+Layout/EmptyLineAfterMagicComment:
+  Enabled: true
+
+Minitest:
+  Enabled: true
+
+Minitest/MultipleAssertions:
+  Enabled: false
+
+Performance:
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
