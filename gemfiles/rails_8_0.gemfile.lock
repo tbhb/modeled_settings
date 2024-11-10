@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 65e06cbe65137fc6a39fceea5efc399fae41aee6
+  revision: 12072c29ec83fbc41e1ecfcf315c830f55eb7d6b
   branch: 8-0-stable
   specs:
     actioncable (8.0.0)
@@ -100,7 +100,7 @@ GIT
 PATH
   remote: ..
   specs:
-    modeled_settings (0.1.0.alpha)
+    modeled_settings (0.1.0)
       activemodel (>= 7.2.0)
       activesupport (>= 7.2.0)
       bundler (>= 1.15.0)

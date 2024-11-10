@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors     = [ "Tony Burns" ]
   spec.email       = [ "tony@tonyburns.net" ]
   spec.homepage    = "https://github.com/tbhb/modeled_settings"
-  spec.summary     = "ActiveModel-based configuration for libraries and applications."
-  spec.description = "ActiveModel-based configuration for libraries and applications."
+  spec.summary     = "ActiveModel-based configuration for Rails applications and libraries."
+  spec.description = "ActiveModel-based configuration for Rails applications and libraries."
   spec.license     = "MIT"
 
   spec.metadata = {
