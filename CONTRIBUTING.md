@@ -1,1 +1,1 @@
-# Contributing to Active Model Config
+# Contributing to Modeled Settings

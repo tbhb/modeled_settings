@@ -2,9 +2,5 @@
 
 require "test_helper"
 
-module ActiveModel
-  module Config
-    class LibraryTest < ActiveModel::Config::TestCase
-    end
-  end
+class ModeledSettings::LibraryTest < ModeledSettings::TestCase
 end

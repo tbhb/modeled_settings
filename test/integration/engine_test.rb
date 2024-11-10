@@ -2,9 +2,5 @@
 
 require "test_helper"
 
-module ActiveModel
-  module Config
-    class EngineTest < ActiveModel::Config::TestCase
-    end
-  end
+class ModeledSettings::EngineTest < ModeledSettings::TestCase
 end

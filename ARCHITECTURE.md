@@ -1,1 +1,1 @@
-# Active Model Config Architecture
+# Modeled Settings Architecture

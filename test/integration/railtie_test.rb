@@ -2,9 +2,5 @@
 
 require "test_helper"
 
-module ActiveModel
-  module Config
-    class RailtieTest < ActiveModel::Config::TestCase
-    end
-  end
+class ModeledSettings::RailtieTest < ModeledSettings::TestCase
 end

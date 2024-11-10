@@ -1,4 +1,4 @@
-# Active Model Config Changelog
+# Modeled Settings Changelog
 
 ## Unreleased
 
