@@ -18,6 +18,6 @@ if ActiveSupport::TestCase.respond_to?(:fixture_paths=)
   ActiveSupport::TestCase.fixtures :all
 end
 
-class ActiveModel::Config::TestCase < ActiveSupport::TestCase
+class ModeledSettings::TestCase < ActiveSupport::TestCase
   include ActiveSupport::Testing::MethodCallAssertions
 end

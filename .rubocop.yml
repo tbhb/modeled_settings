@@ -19,7 +19,20 @@ AllCops:
     - Gemfile.lock
   TargetRubyVersion: 3.2
 
+Layout/AccessModifierIndentation:
+  Enabled: true
+
+Layout/DefEndAlignment:
+  Enabled: true
+
 Layout/EmptyLineAfterMagicComment:
+  Enabled: true
+
+Layout/IndentationConsistency:
+  Enabled: true
+  EnforcedStyle: indented_internal_methods
+
+Layout/InitialIndentation:
   Enabled: true
 
 Minitest:

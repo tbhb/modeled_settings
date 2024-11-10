@@ -1,1 +1,1 @@
-# Releasing Active Model Config
+# Releasing Modeled Settings

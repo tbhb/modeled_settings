@@ -1,4 +1,4 @@
-# Active Model Config Security Policy
+# Modeled Settings Security Policy
 
 ## Reporting a Vulnerability
 

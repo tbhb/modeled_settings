@@ -100,7 +100,7 @@ GIT
 PATH
   remote: ..
   specs:
-    activemodel-config (0.1.0.alpha)
+    modeled_settings (0.1.0.alpha)
       activemodel (>= 7.2.0)
       activesupport (>= 7.2.0)
       bundler (>= 1.15.0)
@@ -286,11 +286,11 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  activemodel-config!
   appraisal
   bootsnap
   brakeman
   debug
+  modeled_settings!
   propshaft
   puma (>= 5.0)
   rails!
